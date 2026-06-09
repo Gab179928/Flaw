@@ -1,0 +1,16 @@
+[project]
+name = "flaw"
+version = "1.0.0"
+description = "Flaw is a command-line password archive search utility using SQLite indexes."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [ { name = "Flaw Project" } ]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["flaw*"]

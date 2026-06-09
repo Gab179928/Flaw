@@ -1,0 +1,20 @@
+Installazione e requisiti
+
+Requisiti
+
+- Python 3.11 o superiore
+- File rockyou_opt.db o rockyou.db nella stessa cartella di flaw.py
+
+Installazione
+
+1. Copia tutti i file del progetto nella stessa cartella.
+2. Assicurati di avere Python installato.
+3. Avvia il tool con:
+
+   python main.py --help
+
+4. Per la versione inglese, avvia:
+
+   python main_eng.py --help
+
+Nessun pacchetto esterno è richiesto oltre alla libreria standard di Python.
