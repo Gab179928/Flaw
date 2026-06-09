@@ -17,4 +17,8 @@ Installazione
 
    python main_eng.py --help
 
-Nessun pacchetto esterno è richiesto oltre alla libreria standard di Python.
+le librerie necessarie sono:
+argparse
+sqlite3
+time
+pathlib
